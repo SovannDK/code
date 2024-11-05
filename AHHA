@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/main.css">
+    <title>Image Slider</title>
+</head>
+<body>
+    <nav class="nav">
+        <img src="/Img/AHHA Education Cambodia (small).svg" alt="AHHA Education Logo" class="photo">
+        <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Innovations</a></li>
+            <li><a href="#">Countries</a></li>
+            <li><a href="#">Get Involved</a></li>
+        </ul>
+        <div class="donate">Donate & Sponsor</div>
+    </nav>
+    
+    <div class="slider">
+        <div class="list">
+            <div class="item">
+                <img src="/Img/Group 1.png" alt="">
+            </div>
+            <div class="item">
+                <img src="Img/IMG_20231002_103216 1.png" alt="">
+            </div>
+            <div class="item">
+                <img src="Img/photo_2024-05-11_14-57-03 1.png" alt="">
+            </div>
+            <div class="item">
+                <img src="Img/WhatsApp Image 2024-04-24 at 16.54.56_b6b406e5 1@2x.png" alt="">
+            </div>
+            <div class="item">
+                <img src="Img/WhatsApp Image 2024-04-24 at 16.55.18_1c8b25ff 1.png" alt="">
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+        <ul class="dots">
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    
+    <nav class="box">
+        <divc class="lesson">
+            <img src="/Img/About Us.png" alt="img-about">
+            <h1 class="lesson-title">ABOUT US</h1>
+        </divc>
+         <div class="box-text">
+            <img src="/Img/image.png" alt="">
+            <div class="lesson">
+                <h1 class="text-tile">Lesson 1: Understanding HTML and CSS</h1>
+                <p class="textp">In this lesson, we will study the basics of HTML and CSS to understand how to structure and style webpages.</p>
+         </div>
+
+    </nav>
+
+
+    
+    <script src="app/app.js"></script>
+</body>
+</html>
